@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battlemind</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alpha_button">Alpha Only</string>
+    <string name="numeric_button">Numbers Only</string>
+    <string name="mixed_button">Mixed</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_pass">PassActivity</string>
+    <string name="enter_pass">Enter your password:</string>
+    <string name="play_button">Play!</string>
+    <string name="new_pass_hint">Enter a password for the next level!</string>
+    
+
+</resources>

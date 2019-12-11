@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/battlemindgamemainpage"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BattleActivity" >
+
+    <ImageButton
+        android:id="@+id/alpha_button"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:contentDescription="@string/alpha_button"
+        android:onClick="alphaClicked"
+        android:src="@drawable/battlemindgamebuttonalphabet"
+        android:text="@string/alpha_button" />
+
+    <ImageButton
+        android:id="@+id/numeric_button"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/numeric_button"
+        android:onClick="numericalClicked"
+        android:src="@drawable/battlemindgamebuttonnumbers"
+        android:text="@string/numeric_button" />
+
+    <ImageButton
+        android:id="@+id/mixed_button"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/mixed_button"
+        android:onClick="mixedClicked"
+        android:src="@drawable/battlemindgamebuttonboth"
+        android:text="@string/mixed_button" />
+
+</LinearLayout>
